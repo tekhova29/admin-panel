@@ -8,6 +8,7 @@
 
 body {
   display: flex;
+  background-color: #13131a;
 }
 
 .left-menu {
