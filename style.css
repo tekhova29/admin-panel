@@ -27,7 +27,23 @@ body {
   margin-top: 21px;
   margin-bottom: 64px;
   display: flex;
-  justify-content: center;
+  margin-left: 25px;
+}
+.logo-h1 {
+  margin-left: 10px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logo-imgs {
+  position: relative;
+}
+
+.logo-img1 {
+  position: absolute;
+  right: 0;
 }
 
 ul {
@@ -47,4 +63,39 @@ li {
 li img {
   margin-right: 22px;
   margin-left: 22px;
+}
+
+.head-div {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.user {
+  margin-right: 33px;
+}
+
+.oval {
+  border-radius: 12px;
+  background: #fc5a5a;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+
+.notification {
+  position: relative;
+  margin-right: 25px;
+}
+
+.head-div h1 {
+  color: #fafafb;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  margin-right: 25px;
 }
